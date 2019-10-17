@@ -69,6 +69,35 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: orange;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.top-middle-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -85,6 +114,40 @@ p {
     padding-bottom: 20px;  
 }
 
+.about {
+    
+    padding: 20px;
+    border-bottom: 1px dashed;
+}
+
+.middle-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.middle-boxes div {
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px dashed;
+    margin-bottom: 20px;
+}
+
+.middle-boxes div h2 {
+    margin-top: 20px;
+}
+
+.middle-boxes div a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -95,21 +158,63 @@ p {
     margin-bottom: 0;
 }
 
+.lets-work-together {
+    padding: 20px;
+}
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
